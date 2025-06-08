@@ -3,8 +3,8 @@
 #include  <fstream>
 #include  <locale>
 #include  <cstdlib>
-#include  "tree.h"
 #include <algorithm>
+#include  "tree.h"
 
 PMTree::PMTree(const std::vector<char>& elements) {
 if (elements.empty()) {
