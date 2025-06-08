@@ -4,7 +4,7 @@
 
 #include <vector>
 class PMTree {
-public:
+ public:
 struct Noda {
 char value;
 std::vector<Noda*> child;
@@ -17,7 +17,7 @@ Noda* getRoot() const { return root; }
 PMTree& operator=(const PMTree&) = delete;
 PMTree(const PMTree&) = delete;
 
-private:
+ private:
 Noda* root;
 int totalPerms;
 void buildTree(Noda* parent, const std::vector<char>& remain);
